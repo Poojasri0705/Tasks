@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#Day-5</title>
+    <style>
+        .fp {
+            color: chartreuse;
+            cursor: pointer;
+        }
+
+        body h2 a {
+            /* background-color:black; */
+        }
+
+        .fp:hover {
+            /* background-color: black; */
+        }
+        .sp{
+            color: darkmagenta;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="color: brown;">The Magical Bottle</h2>
+    <p>Once upon a time, in a <span class="fp">faraway land,</span> there was a mysterious magical bottle. Legends spoke
+        of its <u>enhancing powers</u> and the wonders it held within.</p>
+    <p>People from all around the kingdom heard of the bottle's <s>mystical allure.</s>It was said that the bottle had
+        the ability to <sub>shrink</sub> or <sup>enlarge</sup> anything placed inside it. Rumors even mentioned <span class="sp"><i>time-traveling</i></span> sand hidden within.</p>
+    <h2 style="color: blue;">Discovery of Bottle</h2>
+    <p>As reached the heart of the forest, she stumbled upon a hidden <span style="color: red;">glistening cave.</span>
+        Inside the cave, she discovered the long-lost <span style="color: green;">magical bottle</span> resting on a
+        pedestal.</p>
+    <br>
+    <img src="c:\Users\kolli\OneDrive\Desktop\pooja\pics\Screenshot 2023-08-27 111814.png" alt="Day-5 Work Example">
+    <br>
+    <p>Eager to uncover its secrets, Elena carefully examined the bottle. Its surface was adorned with intricate
+        patterns, and a faint glow emanated from within. She couldn't resist the temptation to open it.</p>
+    <h2 style="color: blue;">The Wonders Unveiled</h2>
+    <p>As the bottle's cap was lifted, a burst of <span style="color: yellow;">golden light</span> filled the cave. To
+        her amazement, Elena found herself surrounded by <span style="color: red;">floating books</span> containing
+        stories from different eras.</p>
+    <h2 style="color: blue;">The Journey Continues</h2>
+    <p>Elena's adventure had just begun. Armed with the magical bottle, she set out on a <i>time-traveling quest</i>,
+        exploring ancient civilizations, witnessing legendary events, and learning the stories of the past.</p>
+    <ul>
+        <li>Visting the lost city of<span style="color: blueviolet;">Atlantis</span>.</li>
+        <li>Attending Shakespearean <i>theater performances</i>.</li>
+        <li>Joining the <u>renaissance</u> era's grand masquerade balls.</li>
+        <!-- <h2><a href="./Day-4.html"> previous class </h2> -->
+    </ul>
+</body>
+
+</html>
