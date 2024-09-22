@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            background-color: gray;
+            padding: 3px;
+            text-align: center;
+        }
+        .footer {
+            background-color: gray;
+            padding: 3px;
+            text-align: center;
+        }
+        #grid-container {
+            display: grid;
+            padding: 3px;
+            display: flex;
+            /* grid-template-columns: 200px  200px 200px 200px;
+       grid-template-rows: 200px  200px 200px 200px; */
+            gap: 10px;
+            justify-content: left;
+        }
+        .grid-item {
+            background-color: blueviolet;
+            padding: 30px;
+            height: 430px;
+            /* grid-columns: 50px 55px 87px ;
+        grid-row: 100px  200px 250px; */
+            /* display: flex; */
+        }
+        .pk{
+            background-color: aqua;
+            display: grid;
+            padding: 3px;
+            display: flex;
+            /* block-size: 30px; */
+        }
+        .pakkana{
+            padding: 30px;
+            height: px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">Header</div>
+        <div class="pk">
+            <div class="pakkana">Sid</div></div>
+    <div id="grid-container">
+        <div class="grid-item">Sidebar</div>
+        <div class="grid-item">widget 1</div>
+        <div class="grid-item">widget 2</div>
+        <div class="grid-item">widget 3</div>
+        <div class="grid-item">widget 4</div>
+        <div class="grid-item">widget 5</div>
+    </div>
+    <div class="footer">Footer</div>
+</body>
+
+</html>
