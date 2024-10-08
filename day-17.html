@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <table id="table-data" border="2">
+        <tr>
+            <th>S.No</th>
+            <th>Insitiution</th>
+            <th>Percentage</th>
+            <th>Year of passing</th>
+
+        </tr>
+    </table>
+    <script>
+          const educationDetails = [
+            { s_no: "1", Insitiution: "SPMH Degree kalasala", Percentage: "85%", Year_of_passing: "2023-26" },
+            { s_no: "2", Insitiution: "Sri Chaitanya jr College",Percentage: "90%", Year_of_passing: "2021-23" },
+            { s_no: "3", Insitiution: "Tagore High School",Percentage: "95%", Year_of_passing: "2020-21" },
+        ];
+        var tableRow = document.getElementById("table-data");
+        for(i=0;i<educationDetails.length;i++){
+            var rowT = '<tr>';
+                rowT = rowT + '<td>' +educationDetails[i].s_no + '</td>';
+                rowT = rowT + '<td>' +educationDetails[i].Insitiution + '</td>';
+                rowT = rowT + '<td>' +educationDetails[i].Percentage + '</td>';
+                rowT = rowT + '<td>' +educationDetails[i].Year_of_passing + '</td>';
+
+                tableRow.innerHTML = tableRow.innerHTML + rowT
+
+        }
+
+</script>
+</body>
+</html>
